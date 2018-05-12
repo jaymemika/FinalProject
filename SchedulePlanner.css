@@ -1,0 +1,104 @@
+
+
+body {
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+    background-color: #E7EFFC;
+
+}
+
+h1{
+    font-family: 'Sedgwick Ave', cursive;
+}
+table{
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th{
+    background: #09306F;
+    color: white;
+}
+tr{
+    background: #F5F5F5;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+
+}
+tr:hover {
+    background: white;
+}
+
+form {
+    background: #F5F5F5;
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: #09306F;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 15px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+    font-family: 'Coming Soon', cursive;
+    font-size: 15px;
+}
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
